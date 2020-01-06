@@ -51,6 +51,5 @@ func main()  {
 	}
 
 	fmt.Printf("%v", uniqueSlice)
-
 	fmt.Println("totalarray: ", totalsums)
 }
