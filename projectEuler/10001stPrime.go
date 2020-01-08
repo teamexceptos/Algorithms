@@ -10,10 +10,10 @@ func main()  {
 
 	for len(s) < 10002 {
 
-		tractfor += 1
+		trackfor += 1
 
-		if big.NewInt(tractfor).ProbablyPrime(0) {
-			s = append(s, tractfor)
+		if big.NewInt(trackfor).ProbablyPrime(0) {
+			s = append(s, trackfor)
 		}
 	}
 	
